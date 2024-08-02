@@ -1,0 +1,45 @@
+<template>
+   
+
+
+<article class="slds-card">
+    <div class="slds-card__header slds-grid">
+    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+    <div class="slds-media__figure">
+    <span class="slds-icon_container slds-icon-standard-account" title="account">
+    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+    <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+    </svg>
+    <span class="slds-assistive-text">Request</span>
+    </span>
+    </div>
+    <div class="slds-media__body">
+    <h2 class="slds-card__header-title">
+    <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
+    <span>Requests</span>
+    </a>
+    </h2>
+    </div>
+    </header>
+    </div>
+    <lightning-card>
+        <div class="slds-form-element">
+            
+            <div class="slds-form-element__control">
+                <lightning-button variant="base" label="Request Button" title="Looks like a link" onclick={handleAction} class="slds-m-left_x-small"></lightning-button>               </div>
+        </div>   
+        <template if:true={reswrapper}>
+            <div class="slds-m-top_medium slds-m-bottom_x-medium">
+                <div class="slds-p-around_medium lgc-bg">
+                    <lightning-input type="text" label="Status Code"  value={reswrapper.statuscode} disabled></lightning-input>
+                </div>
+            </div>
+            <div class="slds-m-top_medium slds-m-bottom_x-medium">
+                <div class="slds-p-around_medium lgc-bg">
+                    <lightning-input type="text" label="Status"  value={reswrapper.status} disabled></lightning-input>
+                </div>
+            </div>      
+        </template> 
+    </lightning-card>
+    </article>
+</template>
