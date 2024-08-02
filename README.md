@@ -24,4 +24,4 @@
 
 ## Final Output
      
-    ![alt text](BeyonnexTask-1.png)
+    ![alt text](https://github.com/nishant-wavhal/Beyonexx/blob/master/BeyonnexTask-1.png)
