@@ -19,8 +19,10 @@
     - Test Classes
          - AccountResourceServiceTest
          - MockCallOutAccount
-    -  Lightning
+    -  Lightning Web Component
          - accountRequest
+    -  Named Credentials
+         - beyonnexAccountURL 
 
 ## Final Output
      
