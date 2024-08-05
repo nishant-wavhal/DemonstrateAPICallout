@@ -16,10 +16,9 @@ public with sharing class AccountResourceService {
                  return rw; 
                 }
             catch(Exception e)
-            {
-                throw new AuraHandledException('Something Went Wrong'); 
-              
-            }               
+                {
+                throw new AuraHandledException('Something Went Wrong');              
+                }               
     }
 
 }
