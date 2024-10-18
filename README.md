@@ -1,4 +1,4 @@
-## Beyonexx Task
+## LWC Request Response & Mocking
    Purpose : To build a LWC component on Account recordPage carrying out, request and reponse.
 
 ## What to Do?
