@@ -1,5 +1,6 @@
 ## LWC Request Response & Mocking
-   Purpose : To build a LWC component on Account recordPage carrying out, request and reponse.
+   Purpose :
+   To build a LWC component on Account recordPage carrying out, request and reponse.
 
 ## What to Do?
     - Named credentials to maintain the API endpoint which is configurable.
